@@ -1,0 +1,1016 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.heading-color {
+    color: rgb(30, 30, 30);
+}
+
+.content-color {
+    color: rgb(78, 78, 78);
+}
+
+/* ======== navbar section========= */
+
+nav .container .home-line {
+    width: 40px;
+    height: 1.5px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 30px;
+
+    transition: width 0.5s;
+}
+
+nav .container .about-line {
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 30px;
+
+    transition: width 0.5s;
+}
+
+nav .container ul li:hover .about-line {
+    width: 42px;
+}
+
+nav .container .services-line {
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 30px;
+
+    transition: width 0.5s;
+}
+
+nav .container ul li:hover .services-line {
+    width: 55px;
+}
+
+nav .container .work-line {
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 30px;
+
+    transition: width 0.5s;
+}
+
+nav .container ul li:hover .work-line {
+    width: 40px;
+}
+
+nav .container .blog-line {
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 30px;
+
+    transition: width 0.5s;
+}
+
+nav .container ul li:hover .blog-line {
+    width: 33px;
+}
+
+nav .container .dropdown-line {
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+
+    position: absolute;
+    top: 33px;
+
+    transition: width 0.5s;
+}
+
+nav .container ul li:hover .dropdown-line {
+    width: 93px;
+}
+
+nav .container .contact-line {
+    width: 0;
+    height: 1.5px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 30px;
+
+    transition: width 0.5s;
+}
+
+nav .container ul li:hover .contact-line {
+    width: 58px;
+}
+
+/* ======== header section========= */
+
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../imags/header-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header .header-content h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 86px;
+    margin-bottom: 24px;
+}
+
+header .header-content span::after {
+    content: 'Designer|';
+    animation-name: typing-animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing-animation {
+    0% {
+        content: '|';
+    }
+
+    1% {
+        content: 'D|';
+    }
+
+    2% {
+        content: 'De|';
+    }
+
+    3% {
+        content: 'Des|';
+    }
+
+    4% {
+        content: 'Desi|';
+    }
+
+    5% {
+        content: 'Desig|';
+    }
+
+    6% {
+        content: 'Design|';
+    }
+
+    7% {
+        content: 'Designe|';
+    }
+
+    8% {
+        content: 'Designer|';
+    }
+
+    9% {
+        content: 'Designe|';
+    }
+
+    10% {
+        content: 'Design|';
+    }
+
+    11% {
+        content: 'Desig|';
+    }
+
+    12% {
+        content: 'Desi|';
+    }
+
+    13% {
+        content: 'Des|';
+    }
+
+    14% {
+        content: 'De|';
+    }
+
+    15% {
+        content: 'Dev|';
+    }
+
+    16% {
+        content: 'Deve|';
+    }
+
+    17% {
+        content: 'Devel|';
+    }
+
+    18% {
+        content: 'Develo|';
+    }
+
+    19% {
+        content: 'Develop|';
+    }
+
+    20% {
+        content: 'Develope|';
+    }
+
+    21% {
+        content: 'Developer|';
+    }
+
+    22% {
+        content: 'Develope|';
+    }
+
+    23% {
+        content: 'Develop|';
+    }
+
+    24% {
+        content: 'Develo|';
+    }
+
+    25% {
+        content: 'Devel|';
+    }
+
+    26% {
+        content: 'Deve|';
+    }
+
+    27% {
+        content: 'Dev|';
+    }
+
+    28% {
+        content: 'De|';
+    }
+
+    29% {
+        content: 'D|';
+    }
+
+    30% {
+        content: '|';
+    }
+
+    31% {
+        content: 'F|';
+    }
+
+    32% {
+        content: 'Fr|';
+    }
+
+    33% {
+        content: 'Fre|';
+    }
+
+    34% {
+        content: 'Free|';
+    }
+
+    35% {
+        content: 'Freel|';
+    }
+
+    36% {
+        content: 'Freela|';
+    }
+
+    37% {
+        content: 'Freelan|';
+    }
+
+    38% {
+        content: 'Freelanc|';
+    }
+
+    39% {
+        content: 'Freelance|';
+    }
+
+    40% {
+        content: 'Freelancer|';
+    }
+
+    41% {
+        content: 'Freelance|';
+    }
+
+    42% {
+        content: 'Freelanc|';
+    }
+
+    43% {
+        content: 'Freelan|';
+    }
+
+    44% {
+        content: 'Freela|';
+    }
+
+    45% {
+        content: 'Freel|';
+    }
+
+    46% {
+        content: 'Free|';
+    }
+
+    47% {
+        content: 'Fre|';
+    }
+
+    48% {
+        content: 'Fr|';
+    }
+
+    49% {
+        content: 'F|';
+    }
+
+    50% {
+        content: '|';
+    }
+
+    51% {
+        content: 'P|';
+    }
+
+    52% {
+        content: 'Ph|';
+    }
+
+    53% {
+        content: 'Pho|';
+    }
+
+    54% {
+        content: 'Phot|';
+    }
+
+    55% {
+        content: 'Photo|';
+    }
+
+    56% {
+        content: 'Photog|';
+    }
+
+    57% {
+        content: 'Photogr|';
+    }
+
+    58% {
+        content: 'Photogra|';
+    }
+
+    59% {
+        content: 'Photograp|';
+    }
+
+    60% {
+        content: 'Photograph|';
+    }
+
+    61% {
+        content: 'Photographe|';
+    }
+
+    62% {
+        content: 'Photographer|';
+    }
+
+    63% {
+        content: 'Photographe|';
+    }
+
+    64% {
+        content: 'Photograph|';
+    }
+
+    65% {
+        content: 'Photograp|';
+    }
+
+    66% {
+        content: 'Photogra|';
+    }
+
+    67% {
+        content: 'Photogr|';
+    }
+
+    68% {
+        content: 'Photog|';
+    }
+
+    69% {
+        content: 'Photo|';
+    }
+
+    70% {
+        content: 'Phot|';
+    }
+
+    71% {
+        content: 'Pho|';
+    }
+
+    72% {
+        content: 'Ph|';
+    }
+
+    73% {
+        content: 'P|';
+    }
+
+    74% {
+        content: '|';
+    }
+
+    /* 75% {
+        content: 'D|';
+    }
+
+    76% {
+        content: 'De|';
+    }
+
+    77% {
+        content: 'Des|';
+    }
+
+    78% {
+        content: 'Desi|';
+    }
+
+    79% {
+        content: 'Desig|';
+    }
+
+    80% {
+        content: 'Design|';
+    }
+
+    81% {
+        content: 'Designe|';
+    }
+
+    82% {
+        content: 'Designer|';
+    }
+
+    83% {
+        content: 'Designe|';
+    }
+
+    84% {
+        content: 'Design|';
+    }
+
+    85% {
+        content: 'Desig|';
+    }
+
+    86% {
+        content: 'Desi|';
+    }
+
+    87% {
+        content: 'Desi|';
+    }
+
+    88% {
+        content: 'Des|';
+    }
+
+    89% {
+        content: 'De|';
+    }
+
+    90% {
+        content: 'Dev|';
+    }
+
+    91% {
+        content: 'Deve|';
+    }
+
+    92% {
+        content: 'Devel|';
+    }
+
+    93% {
+        content: 'Develo|';
+    }
+
+    94% {
+        content: 'Develop|';
+    }
+
+    95% {
+        content: 'Develope|';
+    }
+
+    96% {
+        content: 'Developer|';
+    }
+
+    97% {}
+
+    98% {}
+
+    99% {} */
+
+    100% {
+        content: '|';
+    }
+}
+
+/* ============ main section ============ */
+
+/* ======== about section ========= */
+
+section {
+    padding-top: 64px;
+}
+
+#about .container {
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 48px;
+    padding: 64px 48px;
+}
+
+#about .container .info .skill span {
+    color: rgb(78, 78, 78);
+}
+
+#about .container .info .skill .html-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #CDE1F8;
+
+    position: relative;
+}
+
+#about .container .info .skill .html-progress {
+    width: 85%;
+    height: 10px;
+    background-color: #0078FF;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#about .container .info .skill .css3-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #CDE1F8;
+
+    position: relative;
+}
+
+#about .container .info .skill .css3-progress {
+    width: 75%;
+    height: 10px;
+    background-color: #0078FF;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#about .container .info .skill .php-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #CDE1F8;
+
+    position: relative;
+}
+
+#about .container .info .skill .php-progress {
+    width: 50%;
+    height: 10px;
+    background-color: #0078FF;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#about .container .info .skill .js-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #CDE1F8;
+
+    position: relative;
+}
+
+#about .container .info .skill .js-progress {
+    width: 90%;
+    height: 10px;
+    background-color: #0078FF;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#about .container .aboutme h5::after {
+    content: '';
+
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+/* ======== services section ========= */
+
+#services .container .heading {
+    text-align: center;
+    margin-bottom: 64px;
+    position:relative;
+}
+
+#services .container .heading .line {
+    width: 40px;
+    height: 5px;
+    background-color: #0078FF;
+    margin: auto;
+}
+
+#services .container .cards .card-item .inner {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 48px;
+    padding: 40px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services .container .cards .card-item .inner .icon {
+    width: 120px;
+    height: 120px;
+
+    border: 10px solid #0078FF;
+    border-radius: 50%;
+
+    margin-bottom: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s;
+}
+
+#services .container .cards .card-item .inner:hover .icon {
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+}
+
+/* ======== overlay section ========= */
+
+#counter {
+    background-image: url(../imags/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 128px 0;
+    position: relative;
+}
+
+#counter .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #0078FF;
+    opacity: 0.7;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#counter .container .counter-box {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#counter .container .counter-box .icon {
+    width: 80px;
+    height: 80px;
+    color: #ffff;
+
+    border: 10px solid #ffff;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+/* ======== work section ========= */
+
+#work .container .heading {
+    text-align: center;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+#work .container .heading .line {
+    width: 40px;
+    height: 5px;
+    background-color: #0078FF;
+    margin: auto;
+}
+
+#work .container .cards .card-item .inner img {
+    width: 100%;
+    transition: transform 0.9s;
+}
+
+#work .container .cards .card-item .inner .card-content .content h2 {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+#work .container .cards .card-item .inner .card-content .content span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+#work .container .cards .card-item .inner .card-content .icon {
+    width: 40px;
+    height: 40px;
+
+    border: 3px solid #0078FF;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work .container .cards .card-item:hover img {
+    transform: scale(1.3);
+}
+
+/* ======== slider section ========= */
+
+#slider {
+    background-image: url(../imags/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding: 64px 0;
+    position: relative;
+}
+
+#slider .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #0078FF;
+    opacity: 0.7;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#slider .container .carousel-indicators .bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#slider .container .img img {
+    width: 102px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* ======== blog section ========= */
+
+#blog .container .heading {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+#blog .container .heading .line {
+    width: 40px;
+    height: 5px;
+    background-color: #0078FF;
+    margin: auto;
+}
+
+#blog .container .cards .card-item .inner {
+    background-color: #ffff;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#blog .container .cards .card-item .inner .category {
+    background-color: #0078FF;
+    width: fit-content;
+
+    margin: auto;
+    margin-bottom: -25px;
+
+    padding: 8px 17px;
+    border-radius: 3px;
+
+    transform: translateY(-15px);
+}
+
+#blog .container .cards .card-item .inner .category h6 {
+    color: #ffff;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+
+    margin: 0;
+}
+
+#blog .container .cards .card-item .inner .card-content .card-body a {
+    color: rgb(20, 60, 105);
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+
+    transition: color 0.7s;
+}
+
+#blog .container .cards .card-item .inner .card-content .card-body a:hover {
+    color: #0078FF;
+}
+
+#blog .container .cards .card-item .inner .card-content .card-footer .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#blog .container .cards .card-item .inner .card-content .card-footer .author span {
+    transition: color 0.7s;
+}
+
+#blog .container .cards .card-item .inner .card-content .card-footer .author:hover span {
+    color: #0078FF;
+}
+
+/* ======== contact section ========= */
+
+#contact {
+    background-image: url(../imags/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+
+    margin-top: 64px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+    position: relative;
+}
+
+#contact .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #0078FF;
+    opacity: 0.7;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#contact .container .contact-box {
+    background-color: #ffff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+    padding: 48px;
+}
+
+#contact .container .contact-box .send-message .title h5:after {
+    content: '';
+
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+#contact .container .contact-box .send-message .form input {
+    padding: 10px 15px;
+    border: 1px solid #DEE2E6;
+}
+
+#contact .container .contact-box .send-message .form textarea {
+    height: 130px;
+    padding: 12px 15px;
+    border-color: #DEE2E6;
+}
+
+#contact .container .contact-box .send-message .form .button button {
+    background-color: #0078FF;
+    padding: 10px 24px;
+
+    border: 4px solid #0078FF;
+    border-radius: 30px;
+
+    color: #ffff;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+
+    transition: all 1s;
+}
+
+#contact .container .contact-box .send-message .form .button button:hover {
+    background-color: #3393FF;
+    border-color: #CDE1F8;
+}
+
+#contact .container .contact-box .get-touch .title h5:after {
+    content: '';
+
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+#contact .container .contact-box .get-touch .more-info ul li span i {
+    color: #0078FF;
+}
+
+#contact .container .contact-box .get-touch .socials ul li {
+    width: 45px;
+    height: 45px;
+
+    border: 4px solid #0078FF;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 15px;
+    
+    transition: all 0.5s;
+}
+
+#contact .container .contact-box .get-touch .socials ul li:hover {
+    background-color: #3393FF;
+    border-color: #CDE1F8;
+}
+
+#contact .container .contact-box .get-touch .socials ul li i {
+    color: #2B2B2B;
+    transition: color 0.5s;
+}
+
+#contact .container .contact-box .get-touch .socials ul li:hover i {
+    color: #ffff;
+}
+
+/* ======== footer section ========= */
+
+footer {
+    color: #ffff;
+    background-color: #0062D3;
+    padding: 25px 0;
+}
